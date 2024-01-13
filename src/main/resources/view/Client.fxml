@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpaneClient" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ClientController">
+   <children>
+      <Label layoutX="29.0" layoutY="23.0" text="Client">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMsg" layoutX="29.0" layoutY="349.0" prefHeight="26.0" prefWidth="410.0" />
+      <Button layoutX="483.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: green;" text="SEND" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="txtAreaClient" layoutX="29.0" layoutY="57.0" prefHeight="268.0" prefWidth="543.0" />
+   </children>
+</AnchorPane>
