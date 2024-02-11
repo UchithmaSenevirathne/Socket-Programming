@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2c4812e-ed8f-424b-b211-6afe3a6735ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Server.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Server.java" beforeDir="false" />
+    <list default="true" id="a2c4812e-ed8f-424b-b211-6afe3a6735ea" name="Changes" comment="simple client-server chat application using UI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ServerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,30 +17,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2at2MZ42MqjnJ2B4tUEutRFYJUL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClientInitializer.executor": "Run",
-    "Application.ServerInitializer.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClientInitializer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerInitializer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Try New/Original/layered-architecture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ClientInitializer">
     <configuration name="ClientInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ClientInitializer" />
@@ -91,11 +84,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705123506214</updated>
-      <workItem from="1705123507262" duration="302000" />
+      <workItem from="1705123507262" duration="1982000" />
+      <workItem from="1705127336541" duration="65000" />
+      <workItem from="1705127809854" duration="397000" />
+      <workItem from="1705128271154" duration="168000" />
+      <workItem from="1705318350816" duration="608000" />
+      <workItem from="1705319110159" duration="2344000" />
+      <workItem from="1705581167576" duration="605000" />
+      <workItem from="1705659772846" duration="38000" />
+      <workItem from="1705661866578" duration="665000" />
+      <workItem from="1706848540655" duration="602000" />
+      <workItem from="1707056367659" duration="1227000" />
+      <workItem from="1707103767311" duration="192000" />
+      <workItem from="1707105704771" duration="148000" />
+      <workItem from="1707281350898" duration="5000" />
     </task>
+    <task id="LOCAL-00001" summary="simple client-server chat application using UI">
+      <option name="closed" value="true" />
+      <created>1705124131782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705124131782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="simple client-server chat application using UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple client-server chat application using UI" />
   </component>
 </project>

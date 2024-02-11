@@ -15,6 +15,7 @@ public class ClientController {
     public AnchorPane anchorpaneClient;
     @FXML
     public TextArea txtAreaClient;
+
     @FXML
     private TextField txtMsg;
 
@@ -27,7 +28,6 @@ public class ClientController {
     public void initialize(){
         new Thread(()->{
             try {
-
                 remotesocket = new Socket("localhost", 3003);
 
                 dataOutputStream =

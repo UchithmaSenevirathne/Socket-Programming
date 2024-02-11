@@ -31,8 +31,10 @@ public class ServerController {
     public void initialize(){
         new Thread(()->{
             try {
+                //Create a ServerSocket to listen for incoming client connections
                 serverSocket = new ServerSocket(3003);
 
+                //Accept client connections using the accept() method.
                 localSocket = serverSocket.accept();
                 DataInputStream dataInputStream =
                         new DataInputStream(localSocket.getInputStream());
